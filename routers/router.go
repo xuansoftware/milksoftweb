@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"milksoftweb/controllers"
+	"github.com/xuansoftware/milksoftweb/controllers"
 	"github.com/astaxie/beego"
 )
 
