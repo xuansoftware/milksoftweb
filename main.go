@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "milksoftweb/routers"
+	_ "github.com/milksoftweb/routers"
 	"github.com/astaxie/beego"
 )
 
