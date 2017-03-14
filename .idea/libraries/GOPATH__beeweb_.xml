@@ -1,0 +1,44 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;beeweb&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../pybbs-go" />
+      <root url="file://$PROJECT_DIR$/../demo" />
+      <root url="file://$PROJECT_DIR$/../beego-blog" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../go" />
+      <root url="file://$PROJECT_DIR$/../apidemo" />
+      <root url="file://$PROJECT_DIR$/../nsq" />
+      <root url="file://$PROJECT_DIR$/../eclipse" />
+      <root url="file://$PROJECT_DIR$/../scheduler" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../beego" />
+      <root url="file://$PROJECT_DIR$/../MessageBlog" />
+      <root url="file://$PROJECT_DIR$/../milksoftware" />
+      <root url="file://$PROJECT_DIR$/../.metadata" />
+      <root url="file://$PROJECT_DIR$/../RemoteSystemsTempFiles" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../pybbs-go" />
+      <root url="file://$PROJECT_DIR$/../demo" />
+      <root url="file://$PROJECT_DIR$/../beego-blog" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../go" />
+      <root url="file://$PROJECT_DIR$/../apidemo" />
+      <root url="file://$PROJECT_DIR$/../nsq" />
+      <root url="file://$PROJECT_DIR$/../eclipse" />
+      <root url="file://$PROJECT_DIR$/../scheduler" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../beego" />
+      <root url="file://$PROJECT_DIR$/../MessageBlog" />
+      <root url="file://$PROJECT_DIR$/../milksoftware" />
+      <root url="file://$PROJECT_DIR$/../.metadata" />
+      <root url="file://$PROJECT_DIR$/../RemoteSystemsTempFiles" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../beeweb" />
+    </excluded>
+  </library>
+</component>

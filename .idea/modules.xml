@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../beeweb/.idea/beeweb.iml" filepath="$PROJECT_DIR$/../beeweb/.idea/beeweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/milksoftweb.iml" filepath="$PROJECT_DIR$/.idea/milksoftweb.iml" />
     </modules>
   </component>
