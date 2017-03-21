@@ -15,9 +15,7 @@
       <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../../../beego" />
       <root url="file://$PROJECT_DIR$/../../../MessageBlog" />
-      <root url="file://$PROJECT_DIR$/../../../milksoftware" />
       <root url="file://$PROJECT_DIR$/../../../.metadata" />
-      <root url="file://$PROJECT_DIR$/../../../milksoftweb" />
       <root url="file://$PROJECT_DIR$/../../../RemoteSystemsTempFiles" />
     </CLASSES>
     <SOURCES>
@@ -35,9 +33,7 @@
       <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../../../beego" />
       <root url="file://$PROJECT_DIR$/../../../MessageBlog" />
-      <root url="file://$PROJECT_DIR$/../../../milksoftware" />
       <root url="file://$PROJECT_DIR$/../../../.metadata" />
-      <root url="file://$PROJECT_DIR$/../../../milksoftweb" />
       <root url="file://$PROJECT_DIR$/../../../RemoteSystemsTempFiles" />
     </SOURCES>
     <excluded>
