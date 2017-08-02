@@ -1,6 +1,10 @@
 FROM golang
-MAINTAINER andy.zx andy.zx@126.com
+MAINTAINER andy.zx xuansoftware@126.com
 
+# 部署nginx
+
+
+# 构建go工程
 RUN go get github.com/astaxie/beego
 
 RUN go get github.com/xuansoftware/milksoftweb
