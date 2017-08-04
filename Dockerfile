@@ -1,9 +1,6 @@
 FROM golang
 MAINTAINER andy.zx xuansoftware@126.com
 
-# 部署nginx
-
-
 # 构建go工程
 RUN go get github.com/astaxie/beego
 

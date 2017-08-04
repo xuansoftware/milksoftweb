@@ -5,6 +5,9 @@ MAINTAINER andy.zx xuansoftware@126.com
 
 # 删除默认的配置文件
 RUN rm -v /etc/nginx/nginx.conf
+
+#ADD logs/error.log /etc/nginx/logs/error.log
+
 # 复制nginx.conf过来
 ADD conf/nginx.conf /etc/nginx/
 
