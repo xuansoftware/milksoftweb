@@ -11,6 +11,9 @@ RUN rm -v /etc/nginx/nginx.conf
 # 复制nginx.conf过来
 ADD conf/nginx.conf /etc/nginx/
 
+#　添加微信认证需要的文件到根目录，用于访问验证
+ADD www/MP_verify_lGad6R2Dt7WCJogP.txt /home/www/
+
 ADD 213946794940857/213946794940857.key /etc/nginx/
 
 ADD 213946794940857/213946794940857.pem /etc/nginx/
