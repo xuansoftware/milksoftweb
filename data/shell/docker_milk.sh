@@ -13,9 +13,8 @@ cd $root_dir
 docker build -t golang/milk .
 
 if [ $test = true ] ; then
-   docker run -it --name milkweb -p 9001:8080 golang/milk
+   docker run -it --name milkweb --link localMysql:loacldb golang/milk
 else
-   docker run -d --name milkweb -p 9001:8080 golang/milk
+   docker run -d --name milkweb --link localMysql:loacldb golang/milk
 fi
-
 

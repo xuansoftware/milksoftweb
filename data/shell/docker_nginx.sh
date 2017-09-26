@@ -8,15 +8,17 @@ else
    root_dir=/root/workspace/milksoftweb/data/nginx/
 fi
 
+logs_dir=${root_dir}logs/
+echo $logs_dir
 
 cd $root_dir
 
 docker build -t nginx/milk .
 
 if [ $test = true ] ; then
-   docker run -it  --link milkweb:milkweb --name milkNginx -p 80:80 -p 443:443 nginx/milk
+   docker run -it --name milkNginx --link milkweb:web_server -p 80:80 -p 443:443 -v $logs_dir:/etc/nginx/logs/ nginx/milk
 else
-   docker run -d --link milkweb:milkweb --name milkNginx -p 80:80 -p 443:443 nginx/milk
+   docker run -d --name milkNginx --link milkweb:web_server -p 80:80 -p 443:443 -v $logs_dir:/etc/nginx/logs/ nginx/milk
 fi
 
 
