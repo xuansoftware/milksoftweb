@@ -1,16 +1,21 @@
 # 编译运行nginx容器
 
-test=true
-milk_dir=/root/milksoftweb/
+test=false
 
-cd $milk_dir
-
-docker build -t nginx/milk .
-
-if [ "$test" = "true" ] ; then
-   docker run -it -p 9001:8080 golang/milk
+if [ $test = true ] ; then
+   root_dir=/home/andy/root/dev/workspace/go/src/github.com/xuansoftware/milksoftweb/
 else
-   docker run -d -p 9001:8080 golang/milk
+   root_dir=/root/workspace/milksoftweb/
+fi
+
+cd $root_dir
+
+docker build -t golang/milk .
+
+if [ $test = true ] ; then
+   docker run -it --name milkweb -p 9001:8080 golang/milk
+else
+   docker run -d --name milkweb -p 9001:8080 golang/milk
 fi
 
 
